@@ -20,7 +20,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
  
 bot.once('ready', () => {
-    console.log('Ready!');
+    console.log(`Your bot is ready (Tutorial by old town road#6330 `);
 });
  
 //If there isn't a reaction for every role, scold the user!
