@@ -7,12 +7,12 @@ app.get("/", (request, response) => {
 });
 app.listen(3000);
 setInterval(() => {
-  http.get(`http://morning-broom.glitch.me/`);
+  http.get(`http://sugared-paste.glitch.me/`);
 }, 280000);
  
-const setupCMD = "*setreactionrole"
+const setupCMD = "!!setreactionrole"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
-const roles = ["lol"];
+const roles = ["Good role"];
 const reactions = ["✅"];
  
 //Load up the bot...
