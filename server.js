@@ -12,7 +12,7 @@ setInterval(() => {
  
 const setupCMD = "*setreactionrole"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
-const roles = ["Role"];
+const roles = ["lol"];
 const reactions = ["✅"];
  
 //Load up the bot...
@@ -30,7 +30,7 @@ if (roles.length !== reactions.length) throw "Roles list and reactions list are 
 function generateMessages(){
     var messages = [];
     messages.push(initialMessage);
-    for (let role of roles) messages.push(`React below to get the **"${role}"** role!`); //DONT CHANGE THIS
+    for (let role of roles) messages.push(`**React below to get the **"${role}"** role!**`); //DONT CHANGE THIS
     return messages;
 }
  
