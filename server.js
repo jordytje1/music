@@ -12,7 +12,7 @@ setInterval(() => {
  
 const setupCMD = "!!setreactionrole"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
-const roles = ["Good role"];
+const roles = ["Verified"];
 const reactions = ["✅"];
  
 //Load up the bot...
