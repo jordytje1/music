@@ -95,13 +95,12 @@ client.on('guildMemberAdd', member => {
     let embed = new RichEmbed()
    .setTitle("Welcome To the gaming community")
    .addField("Name:", member.user)
-   .addField("User ID:", member.id)
    .addField("Member Count:", member.guild.memberCount)
    .setFooter(member.guild.name)
    .setTimestamp(member.guild.createdAt)
    .setColor("#15f153");
 
-  member.guild.channels.get('685534461793665121').send(embed); 
+  member.guild.channels.get('720713174386606191').send(embed); 
   } catch (err) {
     console.log(err)
   }
@@ -112,14 +111,12 @@ client.on("guildMemberRemove", member => {
   let embed = new RichEmbed()
    .setTitle("Thanks for staying with game community")
    .addField("Name:", member.user)
-   .addField("User ID:", member.id)
    .addField("Member Count:", member.guild.memberCount)
-   .setThumbnail(client.user.displayAvatarURL())
    .setFooter(member.guild.name)
    .setTimestamp(member.guild.createdAt)
    .setColor("#ff0000");
 
-  member.guild.channels.get('685534461793665121').send(embed); 
+  member.guild.channels.get('720713325352189962').send(embed); 
   } catch (err) {
     console.log(err)
   }
