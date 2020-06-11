@@ -12,15 +12,16 @@ setInterval(() => {
  
 const setupCMD = "!setreactionrole"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
-const roles = ["lol"];
+const roles = ["lol"];["banaan"];
 const reactions = ["✅"];
- 
+
+
 //Load up the bot...
 const Discord = require('discord.js');
 const bot = new Discord.Client();
  
 bot.once('ready', () => {
-    console.log(`Your bot is ready (Tutorial by old town road#6330 `);
+    console.log(`Your bot is ready (Tutorial by me`);
 });
  
 //If there isn't a reaction for every role, scold the user!
