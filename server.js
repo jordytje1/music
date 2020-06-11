@@ -11,7 +11,7 @@ setInterval(() => {
 }, 280000);
  
 const setupCMD = "!setreactionrole"
-let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
+let initialMessage = `**✅Verify✅**`;
 const roles = ["『👦』『member』"];
 const reactions = ["✅"];
 
@@ -31,7 +31,7 @@ if (roles.length !== reactions.length) throw "Roles list and reactions list are 
 function generateMessages(){
     var messages = [];
     messages.push(initialMessage);
-    for (let role of roles) messages.push(`**React below to get the **"${role}"** role!**`); //DONT CHANGE THIS
+    for (let role of roles) messages.push(`**React below to get the **"${role}"** role!**`); //DONT CHANGE THIS); //DONT CHANGE THIS
     return messages;
 }
  
